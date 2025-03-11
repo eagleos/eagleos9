@@ -4,7 +4,7 @@ EagleOS 9.5 说明文档 [English](README.md)
 
 EagleOS 9.5基于AlmaLinux 9.5进行深度定制优化。
 
-EagleOS 9.5根据AlmaLinux 9.5官方AlmaLinux-9.5-x86_64-dvd.iso进行精简，全程完全自动化无人值守安装，支持大于2TB磁盘自动分区，集成安装1140个软件包，包含了常用的工具及依赖库等，使装机效率更高效。
+EagleOS 9.5根据AlmaLinux 9.5官方AlmaLinux-9.5-x86_64-dvd.iso进行精简，全程完全自动化无人值守安装，支持大于2TB磁盘自动分区，集成安装1151个软件包，包含了常用的工具及依赖库等，iso文件大小由官方的10.6G至不到2.6G，使装机效率更高效。
 
 EagleOS 9.5安装过程中自动进行了如下几项系统优化：
 
@@ -26,9 +26,11 @@ EagleOS 9.5安装过程中自动进行了如下几项系统优化：
 
 请到天翼云盘高速下载eagleos9.5.iso：
 
-https://cloud.189.cn/t/q6F3Arj6Vf2i
+https://cloud.189.cn/t/JjiqyeqQ7Fri
 
-（访问码：ky3u）
+（访问码：2zkf）
+
+https://eagleos.sourceforge.io
 
 ## EagleOS系统安装方式
 
@@ -107,7 +109,7 @@ PXE网络安装方式的引导界面：
 
 （6）通常情况下，您的网络段配置与eagleos9.5.iso默认配置的IP段不同，因此安装后需要在控制台修改网络IP等信息：
 
-通过vim玲修改网卡配置文件/etc/sysconfig/network-scripts/ifcfg-ens160，修改其中相关信息后保存退出，然后执行命令: `systemctl restart network`，重启网络服务即可。
+通过vim命令修改网卡配置文件/etc/sysconfig/network-scripts/ifcfg-ens160，修改其中相关信息后保存退出，然后执行命令: `systemctl restart network`，重启网络服务即可。
 
 您就可以在本机电脑上通过SecureCRT等远程登录软件进行远程登录此台服务器了!
 
