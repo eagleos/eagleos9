@@ -4,7 +4,7 @@ EagleOS 9.5 Documentation [中文](README_CN.md)
 
 EagleOS 9.5 is deeply customized and optimized based on AlmaLinux 9.5.
 
-EagleOS 9.5 is streamlined according to AlmaLinux 9.5 official AlmaLinux-9.5-x86_64-dvd.iso, the whole process of fully automated and unattended installation, support for greater than 2TB disk automatic partitioning, integrated installation of 1140 software packages, including commonly used tools and dependencies such as libraries, so as to make the efficiency of the installation of the more efficient.
+EagleOS 9.5 according to AlmaLinux 9.5 official AlmaLinux-9.5-x86_64-dvd.iso streamlining, the whole process of fully automated and unattended installation, support for more than 2TB disk automatic partitioning, integrated installation of 1151 software packages, including commonly used tools and libraries and other dependencies, iso file size from the official 10.6G The iso file size from the official 10.6G to less than 2.6G, so that the installation efficiency more efficient.
 
 EagleOS 9.5 automatically performs the following system optimizations during the installation process:
 
@@ -26,9 +26,11 @@ After the installation is completed, ssh port: 49156, default ip: 192.168.0.205,
 
 Please go to sky cloud disk to download eagleos9.5.iso at high speed:
 
-https://cloud.189.cn/t/q6F3Arj6Vf2i
+https://eagleos.sourceforge.io
 
-(Access Code: ky3u)
+https://cloud.189.cn/t/JjiqyeqQ7Fri
+
+(Access Code: 2zkf)
 
 ## EagleOS system installation method
 
@@ -107,7 +109,7 @@ The second item is “Automatically partition and install EagleOS on nvme”, to
 
 (6) Usually, your network segment configuration is different from the default IP segment configured by eagleos9.5.iso, so you need to modify the network IP and other information in the console after installation:
 
-Modify the network card configuration file /etc/sysconfig/network-scripts/ifcfg-ens160 via vim Ling, modify the relevant information therein and save and exit, then execute the command: `systemctl restart network` to restart the network service.
+Modify the network card configuration file /etc/sysconfig/network-scripts/ifcfg-ens160 via vim command, modify the relevant information therein and save and exit, then execute the command: `systemctl restart network` to restart the network service.
 
 You can now log in to the server remotely from your local computer using SecureCRT or other remote login software!
 
